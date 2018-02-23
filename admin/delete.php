@@ -1,4 +1,4 @@
-<?php
+<?php session_start();
 require('../includes/config.php');
 include("includes/head.inc.php");
 if($_SESSION["login"]!=1)
